@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Rivera | Software Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <a href="#hero" class="logo">AR.</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Alex Rivera</span></h1>
+        <p class="tagline">Frontend Developer crafting clean, accessible, and fast web experiences.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Work</a>
+          <a href="#contact" class="btn secondary">Get in Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>I build intuitive web interfaces using modern standards. Focused on semantic architecture, accessibility, and high performance without unnecessary bloat.</p>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills & Tools</h2>
+      <ul class="skills-grid">
+        <li>HTML5</li>
+        <li>CSS3 / Grid / Flexbox</li>
+        <li>JavaScript (ES6+)</li>
+        <li>Responsive Web Design</li>
+        <li>Git & GitHub</li>
+        <li>REST APIs</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Task Manager PWA</h3>
+          <p>An offline-first task board with drag-and-drop support and persistent browser storage.</p>
+          <p class="tech-stack"><strong>Tech:</strong> Vanilla JS, CSS Grid, LocalStorage</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Weather Dashboard</h3>
+          <p>Real-time forecast application querying open weather APIs with dynamic SVG condition badges.</p>
+          <p class="tech-stack"><strong>Tech:</strong> HTML5, Fetch API, CSS Flexbox</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h3>Markdown Previewer</h3>
+          <p>Instant browser markdown compiler with syntax highlighting, export utilities, and word counts.</p>
+          <p class="tech-stack"><strong>Tech:</strong> ES6 Modules, Regular Expressions, CSS</p>
+          <div class="project-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">Source Code</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out directly for collaborations or roles:</p>
+      <div class="contact-links">
+        <a href="mailto:alex@example.com" class="btn primary">alex@example.com</a>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alex Rivera. Built with vanilla HTML, CSS, and JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
